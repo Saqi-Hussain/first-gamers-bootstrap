@@ -1,0 +1,204 @@
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 37px;
+  background-color: black;
+  border: 2px solid white;
+  min-width: 160px;
+  box-shadow: inset -1px 3px 9px 0px rgb(206 209 218);
+  
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+ 
+}
+
+.custom-nav {
+  padding: 0px;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  /* border: 3px solid green; */
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .animate {
+    animation-duration: 0.1s;
+    -webkit-animation-duration: 0.2s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: transform;
+    -webkit-opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    -webkit-opacity: 1;
+  }
+
+  0% {
+    -webkit-transform: translateY(1rem);
+    -webkit-opacity: 0;
+  }
+}
+
+.slideIn {
+  -webkit-animation-name: slideIn;
+  animation-name: slideIn;
+}
+
+/* Other styles for the page not related to the animated dropdown */
+
+body {
+  /* background: #000000; */
+  background: linear-gradient(to right, #7483a0, #041531);
+  /* background-color: grey; */
+  font-family: "Akronim", cursive;
+  font-family: "Catamaran", sans-serif;
+  /* background-image: url(https://source.unsplash.com/1600x450/?game,gaming);
+  background-repeat: no-repeat; */
+}
+@media only screen and (max-width:600px){
+    .form-control{
+        display: none;
+    }
+    .btn-outline-success{
+        display: none;
+    }
+}
+
+.tales {
+  width: 100%;
+  max-height: 580px !important;
+  filter: brightness(0.4);
+}
+.carousel-inner{
+  width:100%;
+  max-height: 580px !important;
+}
+.carousel-description-h{
+  font-size: 50px;
+
+}
+.carousel-description-p{
+  font-size: 25px;
+}
+
+.search-box-user-customize{
+  height: 35px;
+}
+
+  
+
+.car-bg-color{
+  background-color: black;
+}
+.card-text-color{
+  color: white;
+}
+.card-img-top {
+  width: 100%;
+  height: 18vw;
+  object-fit: cover;
+  filter: brightness(0.4);
+}
+.card-margin{
+  margin: 30px 0px;
+  
+  
+}
+.card-main-text{
+  text-align: center;
+  
+}
+.card-main-text-a{
+  text-decoration: none;
+}
+.card-h:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ;
+  filter: brightness(1.5);
+  
+}
+.card {
+  transition: transform 0.3s ease;
+}
+
+.my-div{
+  border: 2px solid red;
+  color: white;
+  
+  /* font-size: 55px; */
+  position: relative;
+  overflow: hidden;
+  height: 500px;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.my-div-content{
+  border: 2px solid red;
+  position: absolute;
+  right: 0px;
+  min-width: 850px;
+  height: 500px;
+  /* padding: 157px 20px ; */
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.my-div-content p{
+  padding: 22px;
+}
+.my-div-img{
+ 
+  max-width: 455px;
+  height: 500px;
+  border: 10px solid fuchsia;
+
+}
+.f-card-img-top{
+  width: 100%;
+  height: 25vm;
+  object-fit: cover;
+  filter: brightness(0.4);
+}
